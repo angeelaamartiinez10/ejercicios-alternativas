@@ -10,11 +10,10 @@ base = 0
 exponente = 0
 
 base=(int)(input("Dime la base "))
-exponente=(int)(input("Dime el exponenten "))
+exponente=(int)(input("Dime el exponente "))
 
-if (exponente>=0):
+if (exponente>0 or exponente<0):
     print("La potencia es igual: ",base**exponente,)
 elif (exponente==0):
     print("El resultado de la potencia es igual a 1")
-elif(exponente<=0):
-    print("La potencia es igual: ",1/(base**exponente),)
+

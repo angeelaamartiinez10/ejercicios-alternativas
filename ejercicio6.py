@@ -2,7 +2,9 @@
 
 cadena=""
 
-cadena=(input("Dime una cadena de letras "))
+cadena=(input("Dime una letra "))
 
-if issuper(cadena):
-    print("mayuscula")
+if cadena==cadena.upper():
+    print("La letra es mayúscula")
+else:
+    print("La letra es minúscula")

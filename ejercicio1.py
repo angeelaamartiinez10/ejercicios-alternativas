@@ -4,7 +4,7 @@ num1 = 0
 num2 = 0
 
 num1=(int)(input("Dime un número "))
-num2=(int)(input("DIme otro número "))
+num2=(int)(input("Dime otro número "))
 
 if(num1<num2):
     print(num1,"es menor que ",num2)
